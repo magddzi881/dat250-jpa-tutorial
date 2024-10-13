@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.HashSet;
 
 @Entity
+@Table(name = "bank")
 public class Bank {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

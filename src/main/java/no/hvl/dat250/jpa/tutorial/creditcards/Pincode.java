@@ -3,6 +3,7 @@ package no.hvl.dat250.jpa.tutorial.creditcards;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "pincode")
 public class Pincode {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

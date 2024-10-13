@@ -3,6 +3,7 @@ package no.hvl.dat250.jpa.tutorial.creditcards;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "CreditCard")
 public class CreditCard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
